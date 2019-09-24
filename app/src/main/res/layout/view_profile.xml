@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB47E0D1"
+    android:orientation="vertical"
+    tools:context=".ViewProfile">
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:text="My Profile"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="70dp"
+        android:text="Name:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pnameT"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profname"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/profname"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/profemail"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/profname"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="111dp"
+        android:text="Email:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pemailT"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profemail"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/profemail"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/pcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="153dp"
+        android:text="Contact:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pcontactT"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profemail"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@id/pcontact"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/profskill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="194dp"
+        android:text="Skills:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pskillT"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profemail"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@id/profskill"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/profbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="235dp"
+        android:text="Business Name:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pbusT"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profemail"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="125dp"
+        android:layout_toRightOf="@id/profbus"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/bustype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="277dp"
+        android:text="Business Type:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pbustypeT"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profemail"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="164dp"
+        android:layout_toRightOf="@id/profbus"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="116dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginBottom="219dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LogOut"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Women_Emp1</string>
+    <string name="welcome_to_portfolio_app">Welcome To Portfolio App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered_register_now">Not Registered? Register Now</string>
+</resources>

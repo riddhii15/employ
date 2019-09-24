@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad3"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.493"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.972">
+
+    <ImageView
+        android:id="@+id/Eimage"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/employer"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/rEname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/rEemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <EditText
+        android:id="@+id/rEnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="numberDecimal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="211dp" />
+
+
+    <EditText
+        android:id="@+id/rEcompname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Company Name"
+        android:inputType="text"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <EditText
+        android:id="@+id/rEpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <EditText
+        android:id="@+id/rEcpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:orientation="vertical" />
+
+
+    <ProgressBar
+        android:id="@+id/EpbLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/Eregister"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="vertical"
+        android:text="Register"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <Button
+        android:id="@+id/Esignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:text="Already Register? Sign In"
+        tools:layout_editor_absoluteY="531dp" />
+
+
+
+
+
+
+
+</LinearLayout>
+
